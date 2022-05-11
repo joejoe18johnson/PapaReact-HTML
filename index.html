@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Lunch Special</h1>
+  <h3>Monday thru Friday</h3>
+  <h4>11am-3pm</h4>
+  <h2>$9.95 plus Tax</h2>
+<h4>Includes sandwich, snack, and drink.</h4>
+
+<!--Order Information-->
+<form action="" method="post"></form>
+<div>
+  <h2>Order Information</h2>
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" placeholder="Full Name">
+  </div>
+<br>
+  <div>
+    <input type="radio" name="takeout" id="takeOut" checked>
+    <label for="type">Take out</label>
+  </div>
+  <div>
+    <input type="radio" name="takeout" id="">
+    <label for="type">Dine-in</label>
+  </div>
+</form>
+<!--Sandwiches-->
+
+<h2>Sandwiches</h2>
+
+<form action="" method="post">
+<div class="monday" >
+  <h4>Monday</h4>
+  <div>
+    <input type="radio" name="option-1" id="optionOne" checked>
+    <label for="type">Tomato Mozzarella</label>
+  </div>
+  <div>
+    <input type="radio" name="option-1" id="">
+    <label for="type">Chicken Salad</label>
+  </div>
+</div>
+
+<div class="tuesday" >
+  <h4>Tuesday</h4>
+  <div>
+    <input type="radio" name="option-2" id="optionTwo" checked>
+    <label for="type">Greek Salad Wrap</label>
+  </div>
+  <div>
+    <input type="radio" name="option-2" id="">
+    <label for="type">Toto Wrap</label>
+  </div>
+</div>
+
+<div class="wednesday" >
+  <h4>Wednesday</h4>
+  <div>
+    <input type="radio" name="option-3" id="optionOne" checked>
+    <label for="type">Red Pepper Hummus</label>
+  </div>
+  <div>
+    <input type="radio" name="option-3" id="">
+    <label for="type">Roasted Turkey</label>
+  </div>
+</div>
+
+<div class="thursday" >
+  <h4>Thursday</h4>
+  <div>
+    <input type="radio" name="option-4" id="optionFour" checked>
+    <label for="type">Carrot-Ginger Hummus Wrap</label>
+  </div>
+  <div>
+    <input type="radio" name="option-4" id="">
+    <label for="type">Egg Salad</label>
+  </div>
+</div>
+
+<div class="friday" >
+  <h4>Friday</h4>
+  <div>
+    <input type="radio" name="option-5" id="optionOne" checked>
+    <label for="type">Dado Wrap</label>
+  </div>
+  <div>
+    <input type="radio" name="option-5" id="">
+    <label for="type">Tuna Salad</label>
+  </div>
+<div class="sides">
+  <hr>
+<input type="checkbox" name="sides" id="">
+<label for="extras">Gluten Free Bread (75¢ extra)</label>
+<hr>
+</div>
+</form>
+
+<!--Snacks-->
+<div class="snacks">
+<h2>Snacks</h2>
+<form action="" method="post">
+<div>
+  <input type="checkbox" name="snack-option-1" id="snack-option-1">
+  <label for="snack-option-1">Apples</label>
+</div>
+<div>
+  <input type="checkbox" name="snack-option-2" id="snack-option-2">
+  <label for="snack-option-1">Banana</label>
+</div>
+<div>
+  <input type="checkbox" name="snack-option-3" id="snack-option-3">
+  <label for="snack-option-3">Potato Chips</label>
+</div>
+</form>
+</div>
+<!--Drink-->
+<div class="drinks">
+<h2>Drinks</h2>
+<h4>Regular Size</h4>
+<form action="" method="post">
+<div>
+ <select name="drink-options" id="">
+<div class="drink-selector-text" >
+  <option value="drink-options">Please select an option</option>
+</div>
+  <option value="drink-options-1">Coffee or Iced Coffee</option>
+  <option value="drink-options-2">Organic Peppermint</option>
+  <option value="drink-options-3">Hot or Iced Sencha Green Tea</option>
+  <option value="drink-options-4">Hot or Iced Keemun Black Tea</option>
+ </select>
+
+ <div class="drink-size">
+  <hr>
+<input type="checkbox" name="sides" id="">
+<label for="extras">Large Drink (75¢ extra)</label>
+<hr>
+</div>
+
+<div>
+  <button type="submit" value="send request">Place Order</button>
+</div>
+</form>
+
+
+</body>
+</html>
